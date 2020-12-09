@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="index.js">  </script>
+  <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-4"><button type="button" id="undoButton" style="width: 100%;" class="btn btn-primary btn-lg btn-block">Undo</button></div>
+                    <div class="col-md-4"><button type="button" id="redoButton" style="width: 100%;" class="btn btn-primary btn-lg btn-block">Redo</button></div>
+                </div>
+                <div class="row">
+                    <canvas id="myCanvas" width="700" height="500" onclick="storeGuess(event)"; style="border:1px solid #d3d3d3; margin-top: 20px;">
+                </div>
+                <div class="row">
+                    <div class="counterPanel panel panel-primary "  style="width: 700px; height:100px; margin-top:20px;">
+                        <div class="panel-heading">Modificar diametro</div>
+                        <div class="panel-body">
+                            <form name="myForm">
+                            
+                            
+                              <div id="slider"></div>
+                             
+                            </form>
+                        </div>
+                      </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+      
+
+        
+        
+            
+
+       
+
+        </div>
+
+
+      
+    </body>
+</html>
